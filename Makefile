@@ -1,4 +1,4 @@
-LOCAL_IMAGE=$(USER)/webcam-shot
+LOCAL_IMAGE=$(USER)/w-shot
 
 .PHONY: build clean run show
 

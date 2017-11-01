@@ -1,6 +1,6 @@
-[![Build status](https://travis-ci.org/radanalyticsio/base-notebook.svg?branch=master)](https://travis-ci.org/Jiri-Kremser/docker-webcam-shot)
-[![Docker build](https://img.shields.io/docker/automated/Jiri-Kremser/webcam-shot.svg)](https://hub.docker.com/r/Jiri-Kremser/webcam-shot)
-[![Layers info](https://images.microbadger.com/badges/image/Jiri-Kremser/webcam-shot.svg)](https://microbadger.com/images/Jiri-Kremser/webcam-shot)
+[![Build status](https://travis-ci.org/radanalyticsio/base-notebook.svg?branch=master)](https://travis-ci.org/Jiri-Kremser/docker-w-shot)
+[![Docker build](https://img.shields.io/docker/automated/jkremser/w-shot.svg)](https://hub.docker.com/r/jkremser/w-shot)
+[![Layers info](https://images.microbadger.com/badges/image/jkremser/w-shot.svg)](https://microbadger.com/images/jkremser/w-shot)
 
 # webcam shot
 Very simple tool that takes a photo from the webcam. It uses `--device=/dev/video0`
@@ -28,7 +28,7 @@ make show
 ## Using the public image
 ```bash
 mkdir -p /tmp/cam-data
-docker run --rm --device=/dev/video0 -v /tmp/cam-data:/tmp/cam-data:z jkremser/webcam-shot
+docker run --rm --device=/dev/video0 -v /tmp/cam-data:/tmp/cam-data:z jkremser/w-shot
 ```
 
 You can find your pictures in `/tmp/cam-data`.
