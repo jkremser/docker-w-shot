@@ -1,6 +1,6 @@
 [![Build status](https://travis-ci.org/radanalyticsio/base-notebook.svg?branch=master)](https://travis-ci.org/Jiri-Kremser/docker-webcam-shot)
-[![Docker build](https://img.shields.io/docker/automated/Jiri-Kremser/docker-webcam-shot.svg)](https://hub.docker.com/r/Jiri-Kremser/docker-webcam-shot)
-[![Layers info](https://images.microbadger.com/badges/image/Jiri-Kremser/docker-webcam-shot.svg)](https://microbadger.com/images/Jiri-Kremser/docker-webcam-shot)
+[![Docker build](https://img.shields.io/docker/automated/Jiri-Kremser/webcam-shot.svg)](https://hub.docker.com/r/Jiri-Kremser/webcam-shot)
+[![Layers info](https://images.microbadger.com/badges/image/Jiri-Kremser/webcam-shot.svg)](https://microbadger.com/images/Jiri-Kremser/webcam-shot)
 
 # webcam shot
 Very simple tool that takes a photo from the webcam. It uses `--device=/dev/video0`
