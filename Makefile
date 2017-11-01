@@ -1,4 +1,4 @@
-LOCAL_IMAGE=$(USER)/webcam-photo
+LOCAL_IMAGE=$(USER)/webcam-shot
 
 .PHONY: build clean run show
 
@@ -13,7 +13,7 @@ clean:
 run:
 	-docker rm -f wp || true
 	-mkdir -p /tmp/cam-data || true
-	docker run --name wp --device=/dev/video0 -v /tmp/cam-data:/tmp/cam-data:z $(LOCAL_IMAGE)
+	docker run --rm --name wp --device=/dev/video0 -v /tmp/cam-data:/tmp/cam-data:z $(LOCAL_IMAGE)
 
 show:
 	echo -e "\n\nshowing the last picture\n\n"
